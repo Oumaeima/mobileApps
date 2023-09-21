@@ -1,0 +1,30 @@
+You can use PanicKit, tile, shortcut or send a message with a secret code. On trigger, using
+Device Administration API, it locks a device and optionally runs wipe (factory reset). Or it can
+send a broadcast message instead of the wipe.
+
+Also you can:
+* fire when a device was not unlocked for X time
+* fire when a USB data connection is made while a device is locked
+* fire when a fake messenger app is launched
+* fire when a duress password is entered (companion app: [Duress](https://github.com/x13a/Duress))
+
+The app works in Work Profile too, but with limitations. Use it to install risky apps and
+Wasted in it. Then you can wipe this profile data with one click without wiping the whole device.
+
+For base security take a look at: [Sentry](https://github.com/x13a/Sentry).
+Only encrypted device may guarantee that the data will not be recoverable.
+
+Be aware that the app does not work in safe mode.
+
+Broadcast:
+* action: Databye.action.TRIGGER
+* receiver: Databye/.TriggerReceiver
+* also you have to send a secret code from Wasted with the key: code
+
+Permissions:
+* DEVICE_ADMIN - lock and optionally wipe a device
+* FOREGROUND_SERVICE - receive lock and USB state events
+* RECEIVE_BOOT_COMPLETED - persist lock job and foreground service across reboots
+
+It is Free Open Source Software.
+License: GPL-3

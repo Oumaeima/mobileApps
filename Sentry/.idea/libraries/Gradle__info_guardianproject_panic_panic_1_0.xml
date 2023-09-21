@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: info.guardianproject.panic:panic:1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.guardianproject.panic/panic/1.0/8cd565c2930ac380f91376e9d18de25efa41dda2/panic-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.guardianproject.panic/panic/1.0/2dd7f1d7a68073b74a2f660156a28ce32951200d/panic-1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.guardianproject.panic/panic/1.0/cad489f7916d99e7e5b0b6caaf44284655a9b855/panic-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
